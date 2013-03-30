@@ -1,0 +1,37 @@
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+ul,ol,li{list-style:none;}
+input,button{margin:0;font-size:12px;vertical-align:middle;}
+body{font-size:12px;font-family:Arial, Helvetica, sans-serif;  text-align:center; margin:0 auto; color:#2b2b2b}
+table{border-collapse:collapse;border-spacing:0;}
+
+a{color:#2b2b2b;text-decoration:none;}
+a:hover{color:#c00; text-decoration:underline;}
+
+/*box_163css*/
+.box_163css{ width:960px; margin:20px auto;}
+
+#gallery { float: left; width:680px; min-height: 12em; }
+* html #gallery { height: 12em; } /* IE6 */
+.gallery.custom-state-active{background: #eee; }
+.gallery li {float: left; width:150px; overflow:hidden; height:200px; padding: 0.4em; margin: 0 0.7em 0.4em 0; text-align: center; }
+.gallery li h5{ margin: 0 0 0.4em; overflow:hidden; font-size:12px; cursor: move; height:28px; line-height:28px; }
+.gallery li h5 span{ float:right; padding-right:3px; color:#c00;}
+.gallery li a{ float: right; }
+.gallery li a.ui-icon-zoomin { float: left; }
+.gallery li img {width: 100%; height:140px; margin-bottom:5px; cursor: move; }
+
+.car_out{float:left; width:220px; border:1px solid #ccc; display:inline;padding:10px 10px 40px 10px;  margin-left:10px; }
+#car{ width:220px;min-height:18em; float:left; border:none; background:#fff; margin-bottom:10px;}
+* html #car{ height: 18em; } /* IE6 */
+#car li{ width:220px; overflow:hidden; margin-right:0; padding:0.4em 0; height:106px; position:relative;overflow:hidden; background:#fff; cursor:default}
+#car li img{ width:80px; height:80px;cursor:default; padding:1px; border:1px solid #ccc; margin-bottom:0; background:#fff;}
+#car h4 { line-height: 16px; height:24px; line-height:24px; margin: 0 0 0.4em; }
+#car h4 .ui-icon { float: left;}
+#car h5{ position:absolute; text-align:left; line-height:18px; cursor:default; height:40px; left:100px; top:20px;}
+#car h5 span{ padding-left:8px;}
+#car .pic{ float:left; width:90px;}
+.ui-icon-close{ position:absolute; left:76px; top:92px;}
+.ui-widget-header{ text-indent:1em; text-align:left;}
+.s_total{ float:right; padding-right:3px;}
+.a_clear{ border:1px solid #ccc; float:left;display:inline; display:none; cursor:pointer; margin-left:70px;  border:1px solid #ccc; padding:6px 10px; background:#fff; }
